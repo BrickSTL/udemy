@@ -9,7 +9,7 @@ export class RecipeListComponent implements OnInit {
   @Output() recipeWasSelected = new EventEmitter<Recipe>();
     recipes: Recipe[] = [
       new Recipe('A test recipe', 'this is simply a test1','https://www.nps.gov/subjects/camping/images/recipe_1.jpg?maxwidth=1200&maxheight=1200&autorotate=false'),
-      new Recipe('A test recipe', 'this is simply a test2','https://www.nps.gov/subjects/camping/images/recipe_1.jpg?maxwidth=1200&maxheight=1200&autorotate=false')
+      new Recipe('Other test recipe', 'this is simply a test2','https://www.nps.gov/subjects/camping/images/recipe_1.jpg?maxwidth=1200&maxheight=1200&autorotate=false')
     ];
   constructor() { }
 
